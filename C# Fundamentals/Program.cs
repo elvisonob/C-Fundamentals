@@ -1,13 +1,14 @@
 ﻿// See https://aka.ms/new-console-template for more information
+Console.WriteLine("Hello!");
+Console.WriteLine("What do you want to do");
 
-int number = 10;
-int number1 = 5;
 
-Console.WriteLine("Addition:" + (number + number1));
-Console.WriteLine("Subtraction:" + (number - number1));
-Console.WriteLine("Division:" + number / number1);
-Console.WriteLine("Multiplication:" + number * number1);
-Console.WriteLine("John" + "            " + "Smith");
+string elvis = Console.ReadLine();
+Console.WriteLine("User input:" + elvis);
+elvis = "ABC";
 
+var result = "abc" + "def" + "ghi";
+
+Console.ReadKey();
 
 
