@@ -4,18 +4,19 @@ Console.WriteLine("What do you want to do");
 
 var userChoice = Console.ReadLine();
 
-if (userChoice.Length <= 3) 
+
+var result = AdditionMethod(5, 5);
+Console.WriteLine("10 + 5 = " + result);
+
+
+
+
+
+int AdditionMethod(int a, int b)
 {
-    Console.WriteLine("short answer");
-}  if (userChoice.Length<10)
-{
-    Console.WriteLine("longer than three");
-} else
-{
-    Console.WriteLine("longer ooo");
+    return a + b;
 }
 
-Console.ReadKey();
 
 
 
