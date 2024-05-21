@@ -2,21 +2,16 @@
 Console.WriteLine("Hello!");
 Console.WriteLine("What do you want to do");
 
-var userChoice = Console.ReadLine();
+//string longer than 10 letters return false else true
 
-
-var result = AdditionMethod(5, 5);
-Console.WriteLine("10 + 5 = " + result);
-
-
-
-
-
-int AdditionMethod(int a, int b)
+bool StringAddition(string s1)
 {
-    return a + b;
+    return s1.Length > 10;
 }
 
+var result = StringAddition("Elvis");
+
+Console.WriteLine(result);
 
 
 
