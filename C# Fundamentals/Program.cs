@@ -3,17 +3,12 @@ Console.WriteLine("Hello!");
 Console.WriteLine("What do you want to do");
 
 //string longer than 10 letters return false else true
+Console.WriteLine("Provide a number.");
+string number = Console.ReadLine();
 
-bool StringAddition(string s1)
-{
-    return s1.Length > 10;
-}
+int realNum = int.Parse(number);
 
-var result = StringAddition("Elvis");
-
-Console.WriteLine(result);
-
-
+Console.WriteLine(realNum);
 
 
 

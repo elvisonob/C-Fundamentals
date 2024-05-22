@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34723.18
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C# Fundamentals", "C# Fundamentals\C# Fundamentals.csproj", "{108963CC-96D4-426D-8D58-754C92901814}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "C# Fundamentals", "C# Fundamentals\C# Fundamentals.csproj", "{108963CC-96D4-426D-8D58-754C92901814}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator", "Calculator\Calculator.csproj", "{644DCD90-5BAB-4151-BED6-C6239E689C1D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{108963CC-96D4-426D-8D58-754C92901814}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{108963CC-96D4-426D-8D58-754C92901814}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{108963CC-96D4-426D-8D58-754C92901814}.Release|Any CPU.Build.0 = Release|Any CPU
+		{644DCD90-5BAB-4151-BED6-C6239E689C1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{644DCD90-5BAB-4151-BED6-C6239E689C1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{644DCD90-5BAB-4151-BED6-C6239E689C1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{644DCD90-5BAB-4151-BED6-C6239E689C1D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
