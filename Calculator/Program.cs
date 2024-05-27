@@ -21,24 +21,35 @@ Console.WriteLine("[M]ultiply numbers");
 
 string userChoice = Console.ReadLine();
 
-if (userChoice == "m") 
+/*if (userChoice != "m" || userChoice != "s" || userChoice != "a")
+{
+    Console.WriteLine("Invalid choice");
+}*/
+
+if (userChoice == "m" || userChoice == "M") 
 
 {
     var result = inputedNumber * inputedNumber2;
-    Console.WriteLine(userChoice);
+   
     Console.WriteLine( inputedNumber  +  "*" +  inputedNumber2 +  "=" +   result);
 }
 
-if (userChoice == "s") 
+if (userChoice == "s" || userChoice =="S") 
 {
     var result = inputedNumber - inputedNumber2;
-    Console.WriteLine(userChoice);
+   
     Console.WriteLine(inputedNumber  +  "-" +   inputedNumber2 +  "=" +   result);
 }
 
-if (userChoice == "a") 
+if (userChoice == "a" || userChoice =="A") 
 {
     var result = inputedNumber + inputedNumber2;
-    Console.WriteLine(userChoice);
+    
     Console.WriteLine(inputedNumber +  "+" +   inputedNumber2 +  "=" +   result);
 }
+
+if (userChoice !="a" && userChoice != "m" && userChoice != "s")
+{
+    Console.WriteLine("invalid choice");
+}
+
