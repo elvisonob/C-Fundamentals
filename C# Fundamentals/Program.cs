@@ -2,13 +2,11 @@
 Console.WriteLine("Hello!");
 Console.WriteLine("What do you want to do");
 
-//string longer than 10 letters return false else true
-Console.WriteLine("Provide a number.");
-string number = Console.ReadLine();
+int a = 5; int b = 6; int c = 7;
 
-int realNum = int.Parse(number);
+Console.WriteLine($"first {a + b + c}");
 
-Console.WriteLine(realNum);
+Console.ReadKey();
 
 
 

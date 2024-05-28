@@ -52,7 +52,7 @@ void FunctionMethod(int number, string @operator, int number2,  string equalTo, 
 
 bool EqualToUpperOrLowerCase( string left, string right)
 {
-    return left.ToUpper() == right.ToUpper();
+    return left.ToLower() == right.ToLower();
 }
 
 Console.ReadKey();
