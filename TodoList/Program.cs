@@ -1,44 +1,16 @@
 ﻿Console.WriteLine("[R]emove a todo");
 Console.WriteLine("[E]xit");
 
-var word = Console.ReadLine();
 
-while (word.Length < 15)
+
+string word;
+while (word.Length <= 10)
 {
-    word += "a";
-    Console.WriteLine(word);
-    Console.WriteLine("the loop is finished");
+    
+    Console.WriteLine("Word is shorter than 10 letters");
+    word = Console.ReadLine();
 }
 
-Console.ReadKey();
 
 
-
-
-//if (userChoice == "S")
-//{
-//    PrintSelectedOption("See all TODOS");
-//}
-//else if (userChoice == "R")
-//{
-//    PrintSelectedOption("Remove all TODOS");
-//}
-//else if (userChoice == "A")
-//{
-//    PrintSelectedOption("Add a Todo");
-//}
-//else if (userChoice == "E")
-//{
-//    PrintSelectedOption("Exit");
-//}
-//else
-//{
-//    PrintSelectedOption("just chill");
-//}
-
-//Console.ReadKey();
-
-//void PrintSelectedOption(string activity)
-//{
-//    Console.WriteLine(activity);
-//}
+Console.WriteLine("The Loop is finished");
