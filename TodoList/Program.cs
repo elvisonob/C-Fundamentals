@@ -1,7 +1,7 @@
 ﻿
 Console.ReadLine();
 
-//solving 5!
+//Will come back for more loop systems
 
 
 
