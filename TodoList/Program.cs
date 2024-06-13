@@ -1,15 +1,28 @@
 ﻿
 
+int[] numbers = new int[4] { 2, 7, 1, 6 };
 
-for (int i =0; i < 4; i++)
+var sum = 0;
+for (var i=0; i<numbers.Length; i++)
 {
-    for (int j = 0; j < 3; j++)
-    {
-        Console.WriteLine($"i is {i}, j is {j}");
-    }
+    sum += numbers[i];
+   
 }
 
-Console.WriteLine("The loop is finished");
+Console.WriteLine(sum);
+
+
+//var lastNumber = numbers[^1];
+//Console.WriteLine("Element at index 0 is " + numbers[0]);
+//Console.WriteLine("Element at index 0 is " + numbers[1]);
+//Console.WriteLine("Element at index 0 is " + numbers[2]);
+//Console.WriteLine("Element at index 0 is " + numbers[3]);
+
+//Console.WriteLine(lastNumber);
+
+;
+
+
 Console.ReadKey();
 
 
