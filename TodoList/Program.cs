@@ -1,31 +1,12 @@
-﻿
+﻿char[,] letters = new char[2, 3];
 
-int[] numbers = new int[4] { 2, 7, 1, 6 };
+letters[0, 0] = 'a';
+letters[0, 1] = 'b';
+letters[0, 2] = 'c';
+letters[1, 0] = 'd';
+letters[1, 1] = 'e';
+letters[1, 2] = 'f';
 
-var sum = 0;
-for (var i=0; i<numbers.Length; i++)
-{
-    sum += numbers[i];
-   
-}
-
-Console.WriteLine(sum);
-
-
-//var lastNumber = numbers[^1];
-//Console.WriteLine("Element at index 0 is " + numbers[0]);
-//Console.WriteLine("Element at index 0 is " + numbers[1]);
-//Console.WriteLine("Element at index 0 is " + numbers[2]);
-//Console.WriteLine("Element at index 0 is " + numbers[3]);
-
-//Console.WriteLine(lastNumber);
-
-;
 
 
 Console.ReadKey();
-
-
-
-
-
